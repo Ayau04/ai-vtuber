@@ -1,5 +1,7 @@
 # ai-vtuber
-Welcome to the **AI VTuber** project! This repository contains the code, assets, and documentation for creating an engaging AI-driven virtual character that can interact with audiences on platforms like TikTok, Twitch, or YouTube. The project blends AI, game design, and character development into an innovative VTuber experience.
+This project brings to life a virtual AI VTuber that can interact dynamically with users through live streams or pre-recorded videos. Combining cutting-edge AI technologies with game-inspired design, the AI VTuber leverages real-time emotion recognition, chat-based interaction, and custom animations to create a fun, immersive experience. The project also showcases proficiency in game design, character modeling, animation, and live interactivity.
+
+This repository contains the code, assets, and documentation for creating an engaging AI-driven virtual character that can interact with audiences on platforms like TikTok, Twitch, or YouTube. The project blends AI, game design, and character development into an innovative VTuber experience.
 
 ---
 
