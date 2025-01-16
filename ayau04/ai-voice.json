@@ -1,0 +1,86 @@
+{
+    "id": "/subscriptions/93eb60c8-293a-4b8b-8f65-4f0006216ac1/resourceGroups/ai-vtuber/providers/Microsoft.CognitiveServices/accounts/ai-voice",
+    "name": "ai-voice",
+    "type": "Microsoft.CognitiveServices/accounts",
+    "etag": "\"ce015ebc-0000-0100-0000-64a6acc20000\"",
+    "location": "eastus",
+    "sku": {
+        "name": "F0"
+    },
+    "kind": "SpeechServices",
+    "tags": {},
+    "properties": {
+        "endpoint": "https://eastus.api.cognitive.microsoft.com/sts/v1.0/issuetoken",
+        "internalId": "5340e8b220d04c239bb6d5e8eed461ef",
+        "dateCreated": "2023-07-06T12:00:01.9907977Z",
+        "callRateLimit": {
+            "rules": [
+                {
+                    "key": "token",
+                    "renewalPeriod": 1,
+                    "count": 50,
+                    "matchPatterns": [
+                        {
+                            "path": "sts/v1.0/*",
+                            "method": "*"
+                        }
+                    ]
+                },
+                {
+                    "key": "default",
+                    "renewalPeriod": 10,
+                    "count": 100,
+                    "matchPatterns": [
+                        {
+                            "path": "*",
+                            "method": "*"
+                        }
+                    ]
+                }
+            ]
+        },
+        "isMigrated": false,
+        "networkAcls": {
+            "defaultAction": "Allow",
+            "virtualNetworkRules": [],
+            "ipRules": []
+        },
+        "privateEndpointConnections": [],
+        "publicNetworkAccess": "Enabled",
+        "capabilities": [
+            {
+                "name": "VirtualNetworks"
+            },
+            {
+                "name": "CustomerManagedKey"
+            }
+        ],
+        "endpoints": {
+            "Speech Services Speech to Text v2.0": "https://eastus.api.cognitive.microsoft.com/sts/v1.0/issuetoken",
+            "Speech Services Speech to Text v3.0": "https://eastus.api.cognitive.microsoft.com/sts/v1.0/issuetoken",
+            "Speech Services Speech to Text v3.1-preview.1": "https://eastus.api.cognitive.microsoft.com/sts/v1.0/issuetoken",
+            "Speech Services Speech to Text v3.1": "https://eastus.api.cognitive.microsoft.com/sts/v1.0/issuetoken",
+            "Speech Services Speech to Text v3.2-preview.1": "https://eastus.api.cognitive.microsoft.com/sts/v1.0/issuetoken",
+            "Speech Services Custom Voice": "https://eastus.api.cognitive.microsoft.com/sts/v1.0/issuetoken",
+            "Speech Services Audio Content Creation": "https://eastus.api.cognitive.microsoft.com/sts/v1.0/issuetoken",
+            "Unified Speech": "https://eastus.api.cognitive.microsoft.com/sts/v1.0/issuetoken",
+            "Speech Services Speaker Verification": "https://eastus.api.cognitive.microsoft.com/sts/v1.0/issuetoken",
+            "Speech Services Speaker Identification": "https://eastus.api.cognitive.microsoft.com/sts/v1.0/issuetoken",
+            "Container": "https://eastus.api.cognitive.microsoft.com/sts/v1.0/issuetoken",
+            "Model Distribution Service": "https://eastus.api.cognitive.microsoft.com/sts/v1.0/issuetoken",
+            "Token API": "https://eastus.api.cognitive.microsoft.com/sts/v1.0/issuetoken"
+        },
+        "provisioningState": "Succeeded"
+    },
+    "identity": {
+        "type": "None"
+    },
+    "systemData": {
+        "createdBy": "ayaulym@ut.ee",
+        "createdByType": "User",
+        "createdAt": "2023-07-06T12:00:01.9076763Z",
+        "lastModifiedBy": "ayaulym@ut.ee",
+        "lastModifiedByType": "User",
+        "lastModifiedAt": "2023-07-06T12:00:01.9076763Z"
+    }
+}
