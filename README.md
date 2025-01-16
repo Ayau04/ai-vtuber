@@ -10,7 +10,7 @@ This repository contains the code, assets, and documentation for creating an eng
 - **Emotion Recognition**: Real-time emotional responses through facial expressions and animations.
 - **Game-Inspired Design**: Custom character models, animations, and a gamified interaction system.
 - **Live Streaming Ready**: Compatible with streaming platforms like Twitch and TikTok.
-- **Multi-Lingual Support**: Fluent in Kazakh, English, and Russian, with the ability to teach simple phrases.
+
 
 ---
 
